@@ -2,7 +2,8 @@
     width: 305px;
     height: 60px;
     border: 1px solid var(--form-grey);
-    border-radius: 5px
+    border-radius: 5px; 
+    margin-left: 12px;
 }
 
 .email-cap-field::placeholder {

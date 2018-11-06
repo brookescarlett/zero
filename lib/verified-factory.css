@@ -3,10 +3,10 @@
     float: right;
     position: absolute;
     width: 455px;
-    height: 125%;
+    height: 100%;
     transform: skew(-10deg);
     background: var(--main-highlight-color);
-    z-index: 10;
+    z-index: -10;
 }
 
 .prod-img {

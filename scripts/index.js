@@ -54,6 +54,33 @@ document.addEventListener('DOMContentLoaded', function(e){
 
     faq()
 
-    
+
+    //pin email form to navigation
+    var controller = new ScrollMagic.Controller({
+        globalSceneOptions: {
+            triggerHook: 'onLeave'
+        }
+    });
+ 
+    var pin = new ScrollMagic.Scene({
+        triggerElement: '#test',
+    }).setPin('#test', { pushFollowers: false });
+    pin.setClassToggle('#test', 'nav-class');
+    pin.addTo(controller);
+
+
+    //enter timeline 
+    var tl = new TimelineMax();
+    tl.to("#things", 1.5, { opacity: 1 }); 
+    tl.to("#prices", 1.5, { opacity: 1 }); 
+    tl.to("#brands", 1.5, { opacity: 1 }); 
+
+
+    //second page timeline
+    var secondEnter = new ScrollMagic.Scene({
+        triggerElement: '#test',
+    })
+    .setClassToggle('#second-scene', 'nav-class')
+    .addTo(controller)
     
 })
