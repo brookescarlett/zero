@@ -1,0 +1,60 @@
+html,
+body {
+  width: 1440px;
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  width: 1440px;
+  height: 100%;
+  position: relative;
+}
+
+section .inner {
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+#two, #four {
+  background-color: var(--med-grey-bg);
+}
+
+#three {
+  background-color: var(--section-three-bg)
+}
+
+#four {
+  height: unset;
+  min-height: 100% !important;
+  margin-left: 48px;
+}
+
+#five {
+  height: unset;
+  background-color: var(--dark-grey-panel)
+}
+
+section#two .border-gutter, section#two .panel {
+  background-color: var(--dark-grey-panel);
+}
+
+section#four .border-gutter, section#four .panel {
+  background-color: white !important;
+  z-index: 5;
+}
+
+section#three, section#five {
+  z-index: -100;
+}
+
+
+.faq-header {
+  width: 400px;
+}
+
+.faq-item-container {
+  width: 670px;
+  border-bottom: 1px solid #D8D8D8;
+  padding-bottom: 56px 
+}

@@ -7,14 +7,14 @@
 .main-header-type {
     color: black;
     font-family: 'Apercu Bold';
-    font-size: 121px;
+    font-size: 72px;
+    margin: 0;
 }
 
 .header-sub-type {
-    color: black;
     font-family: 'Apercu Bold';
     font-size: 12px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .email-form {
@@ -26,16 +26,24 @@
     color: white;
     font-family: 'Apercu Bold';
     font-size: 70px;
+    margin: 0px;
 }
 
 .section-sub-type {
+    color: black;
     font-family: 'Apercu Bold Italic';
     font-size: 30px;
 }
 
-.section-three-headers {
+.section-three-sub-head {
     font-family: 'Apercu Bold Italic';
     font-size: 21px;
+}
+
+.section-three-headers {
+    color: black;
+    font-family: 'Apercu Bold';
+    font-size: 31px;
 }
 
 .body-type {
@@ -47,6 +55,7 @@
     color: black;
     font-family: 'Apercu Bold';
     font-size: 50px;
+    margin-bottom: 0px;
 }
 
 .faq-sub-header {
@@ -70,4 +79,33 @@
 .final-section {
     color: white;
     font-family: 'Apercu Bold';
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.09);
+    font-family: 'Apercu Bold';
+    font-size: 117px;
+    margin-bottom: 193px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: var(--main-highlight-color)
+}
+
+.footer-email-cap {
+    color: white;
+    font-family: 'Apercu Bold';
+    font-size: 64px;
+    margin-bottom: 48px;
+}
+
+.footer-type {
+    color: white;
+    font-family: 'Apercu Regular';
+    font-size: 12px;
 }

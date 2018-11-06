@@ -7,4 +7,15 @@
     --dark-grey-panel: #2C2C2C;
 
     --section-three-bg: #F3F3F3;
+
+    --form-grey: #676767;
+}
+
+
+.white {
+    color: white;
+}
+
+.light-grey {
+    color: #777777;
 }
